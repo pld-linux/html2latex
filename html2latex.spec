@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	HTML to LaTeX converter
-Summary(pl):	Konwerter HTML-a do LaTeXa
+Summary(pl.UTF-8):   Konwerter HTML-a do LaTeXa
 Name:		html2latex
 Version:	1.1
 Release:	1
@@ -28,19 +28,19 @@ pictures are included, they are converted to .PNG, which can only be
 used with pdflatex. As an added bonus, there is an option to
 automatically create a PDF from the LaTeX file (using pdflatex).
 
-%description -l pl
-html2latex wykorzystuje HTML::TreeBuilder do analizy plikÛw HTML i
-przekszta≥acania obiektÛw HTML::Element do plikÛw LaTeXa. Kaødy URL
-zostaje pozbawiony rozszerzenia .*html. W przypadku uøycia URL-a pliki
-pobrane z Internetu zostan± zapisane w katalogu ~/.html2latex.
-Za≥±czone obrazki s± przekszta≥cane do formatu .PNG, ktÛry moøe byÊ
+%description -l pl.UTF-8
+html2latex wykorzystuje HTML::TreeBuilder do analizy plik√≥w HTML i
+przekszta≈Çacania obiekt√≥w HTML::Element do plik√≥w LaTeXa. Ka≈ºdy URL
+zostaje pozbawiony rozszerzenia .*html. W przypadku u≈ºycia URL-a pliki
+pobrane z Internetu zostanƒÖ zapisane w katalogu ~/.html2latex.
+Za≈ÇƒÖczone obrazki sƒÖ przekszta≈Çcane do formatu .PNG, kt√≥ry mo≈ºe byƒá
 wykorzystany przez pdflatexa. Jako dodatek istnieje opcja
-automatycznego tworzenia dokumentu PDF z pliku LaTeXa (przy uøyciu
+automatycznego tworzenia dokumentu PDF z pliku LaTeXa (przy u≈ºyciu
 pdflatexa).
 
 %package -n perl-HTML-Latex
 Summary:	HTML::Latex Perl module - creates a LaTeX file from an HTML file
-Summary(pl):	Modu≥ Perla HTML::Latex - tworzenie pliku w LaTeXu z pliku HTML
+Summary(pl.UTF-8):   Modu≈Ç Perla HTML::Latex - tworzenie pliku w LaTeXu z pliku HTML
 Group:		Development/Languages/Perl
 Requires:	perl-HTML-Tree >= 2.97
 Requires:	perl-XML-Simple >= 1.04
@@ -51,11 +51,11 @@ LaTeX. It offers several options in processing, such a the ignoring of
 tags, the configuration of the TeX, and downloading of URLs. It is
 also much easier to extend than any other html2latex converter.
 
-%description -n perl-HTML-Latex -l pl
-Modu≥ ten konwertuje odpowiednio sformatowane pliki HTML, uchwyty
-plikÛw lub ≥aÒcuchy znakÛw do LaTeXa. Oferuje przy przetwarzaniu kilka
-opcji, takich jak ignorowanie znacznikÛw, konfiguracja TeXa oraz
-∂ci±ganie odno∂nikÛw. Jest duøo prostszy do rozbudowywania niø
+%description -n perl-HTML-Latex -l pl.UTF-8
+Modu≈Ç ten konwertuje odpowiednio sformatowane pliki HTML, uchwyty
+plik√≥w lub ≈Ça≈Ñcuchy znak√≥w do LaTeXa. Oferuje przy przetwarzaniu kilka
+opcji, takich jak ignorowanie znacznik√≥w, konfiguracja TeXa oraz
+≈õciƒÖganie odno≈õnik√≥w. Jest du≈ºo prostszy do rozbudowywania ni≈º
 jakikolwiek inny konwerter html2latex.
 
 %prep
