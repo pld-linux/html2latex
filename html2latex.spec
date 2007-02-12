@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	HTML to LaTeX converter
-Summary(pl.UTF-8):   Konwerter HTML-a do LaTeXa
+Summary(pl.UTF-8):	Konwerter HTML-a do LaTeXa
 Name:		html2latex
 Version:	1.1
 Release:	1
@@ -40,7 +40,7 @@ pdflatexa).
 
 %package -n perl-HTML-Latex
 Summary:	HTML::Latex Perl module - creates a LaTeX file from an HTML file
-Summary(pl.UTF-8):   Moduł Perla HTML::Latex - tworzenie pliku w LaTeXu z pliku HTML
+Summary(pl.UTF-8):	Moduł Perla HTML::Latex - tworzenie pliku w LaTeXu z pliku HTML
 Group:		Development/Languages/Perl
 Requires:	perl-HTML-Tree >= 2.97
 Requires:	perl-XML-Simple >= 1.04
