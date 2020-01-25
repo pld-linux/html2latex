@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.perl
 Summary:	HTML to LaTeX converter
 Summary(pl.UTF-8):	Konwerter HTML-a do LaTeXa
 Name:		html2latex
